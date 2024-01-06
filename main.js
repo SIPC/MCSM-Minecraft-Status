@@ -57,10 +57,10 @@ app.get('/', async (req, res) => {
 
     // 检查参数
     if (!host || isNaN(port)) {
-        return res.status(400).json({ 'message': 'Missing or invalid parameters' });
+        return res.status(400).json(JSON.stringify({ 'message': 'Missing or invalid parameters' }));
     }
     if (port > 65535) {
-        return res.status(400).json({ 'message': 'The port must be less than or equal to 65535' });
+        return res.status(400).json(JSON.stringify({ 'message': 'The port must be less than or equal to 65535' }));
     }
 
     try {
@@ -76,10 +76,10 @@ app.get('/', async (req, res) => {
         const players = status.players;
         const motd = status.motd;
         const icon = status.favicon;
-        res.json({ online: true, host, port, version, players, motd, icon });
+        res.json(JSON.stringify({ online: true, host, port, version, players, motd, icon }));
     } catch (error) {
         console.log(error);
-        res.json({ 'online': false });
+        res.json(JSON.stringify({ 'online': false }));
 
     }
 });
