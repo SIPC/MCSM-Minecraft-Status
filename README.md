@@ -1,4 +1,4 @@
-# Minecraft-Status 
+# MCSM-Minecraft-Status 
 ## 前端
 ### 安装
 1. 下载 [MCSM-Card.html](https://github.com/SIPC/MCSM-Minecraft-Status/blob/main/frontend/MCSM/MCSM-Card.html)
