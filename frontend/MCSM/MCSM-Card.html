@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minecraft Server Status</title>
+    <style>#server-list{list-style-type:none;padding:0;width:100%;}.light-mode .card{background-color:#ffffff;}.card{background-color:#1a1a1a;border-style:solid;border-width:1px;border-color:#4e4e4e;margin-bottom:10px;border-radius:8px;overflow:hidden;cursor:pointer;transition:box-shadow 0.3s ease-in-out;}.light-mode .card-main{color:#262626;}.card-main{display:flex;color:#c0c0c0;font-weight:bold;justify-content:space-between;align-items:center;padding:18px;}.card-detail{padding-inline:5%;padding-left:5%;background-color:#1d1d1d;height:0;overflow:hidden;transition:height 0.3s ease-in-out;}.motd-container{text-align:center;padding:6px;margin:10px 0;}.card-detail.expanded{max-height:200px;}.light-mode .status{color:#262626;}.status{text-align:right;font-weight:bold;color:#c0c0c0;}</style>
+</head>
+<body>
+    <ul id="server-list">
+        <!-- 格式 -->
+        <!-- <li data-host="服务器IP" data-port="服务器端口">
+            <div class="card">
+                <div class="card-main">服务器名称<span class="status">Checking...</span></div>
+                <div class="card-detail"></div>
+            </div>
+        </li> -->
+    </ul>
+    <script>
+    eval(function(p,a,c,k,e,r){e=function(c){return(c<62?'':e(parseInt(c/62)))+((c=c%62)>35?String.fromCharCode(c+29):c.toString(36))};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[0-9a-fh-zA-O]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('1 r=\'wss://s.sipc-api.top\';let 4=null;2 j(){4=new 7(r);4.onopen=2(){b.c("Connected to 7");k()};4.onclose=2(){b.c("7 connection closed. Retrying...");setTimeout(j,3000)};4.onmessage=2(t){u(v.parse(t.3))}}2 k(){1 w=5.x(\'#0-l y\');w.z(0=>{1 8=0.A.8;1 9=Number(0.A.9);1 B=v.stringify({8,9});d(4.readyState===7.OPEN){4.send(B)}m{b.c("7 is not connected.")}})}2 u(3){1 0=5.e(`#0-l y[3-8="${3.8}"][3-9="${3.9}"]`);d(0){0.e(\'.s\').textContent=`${3.C.online}/${3.C.max}`;0.e(\'.a-D\').innerHTML=`<E class="F-container">${3.F.html.replace(/\\\\/g,\'\')}</E>`}}5.x(\'#0-l .a\').z(a=>{a.addEventListener(\'click\',2(){1 6=this.e(\'.a-D\');d(6.f.h&&6.f.h!==\'G\'){6.f.h=\'G\'}m{6.f.h=6.scrollHeight+\'px\'}})});2 H(){1 I=J.K.L.M(\'N\')||\'i\';d(I===\'i\'){5.n.o.remove(\'p-q\')}m{5.n.o.add(\'p-q\')}}2 O(){1 currentTheme=5.n.o.contains(\'i-q\')?\'i\':\'p\';H()}setInterval(k,30000);b.c(J.K.L.M(\'N\'));j();O()',[],51,'server|const|function|data|websocket|document|details|WebSocket|host|port|card|console|log|if|querySelector|style||height|dark|connectWebSocket|requestServerStatus|list|else|body|classList|light|mode|wsUrl|status|event|displayServerStatus|JSON|servers|querySelectorAll|li|forEach|dataset|message|players|detail|div|motd|0px|updateTheme|theme|window|parent|localStorage|getItem|THEME_KEY|toggleTheme'.split('|'),0,{}))
+    </script>
+</body>
+</html>
