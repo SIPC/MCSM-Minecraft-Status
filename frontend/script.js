@@ -59,6 +59,21 @@ document.querySelectorAll('#server-list .card').forEach(card => {
     });
 });
 
-setInterval(requestServerStatus, 30000); // Update every 30 seconds
+function updateTheme() {
+    const theme = window.parent.localStorage.getItem('THEME_KEY') || 'dark';
+    if (theme === 'dark') {
+        document.body.classList.remove('light-mode');
+    } else {
+        document.body.classList.add('light-mode');
+    }
+}
+
+function toggleTheme() {
+    const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+    updateTheme();
+}
+
+setInterval(requestServerStatus, 30000);
 console.log(window.parent.localStorage.getItem('THEME_KEY'));
 connectWebSocket();
+toggleTheme()
