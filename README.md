@@ -17,8 +17,9 @@
 
 ![image](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/e21f6677-beef-4c8d-a0cc-2fa5597c9743)
 
+---
 
-## 后端
+## 后端（可选）
 ### 安装
 ```
 npm install
@@ -30,3 +31,5 @@ node main.js
 
 ## 效果
 ![image](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/9ffadd57-9fa4-422d-99d2-3c756dc95cc3)
+![image](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/3f59ebed-6385-405d-bc72-574a507439d6)
+
