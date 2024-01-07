@@ -5,12 +5,12 @@
 
 2. 修改html中 服务器IP 服务器端口 服务器名称
 ```html
-       <!-- <li data-host="服务器IP" data-port="服务器端口">
-            <div class="card">
-                <div class="card-main">服务器名称<span class="status">Checking...</span></div>
-                <div class="card-detail"></div>
-            </div>
-        </li> -->
+<li data-host="服务器IP" data-port="服务器端口">
+       <div class="card">
+              <div class="card-main">服务器名称<span class="status">Checking...</span></div>
+              <div class="card-detail"></div>
+       </div>
+</li>
 ```
 
 3. 将html文件上传至mcsm
