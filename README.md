@@ -6,7 +6,7 @@
 ### 安装
 下载 [MCSM-Card.html](https://github.com/SIPC/MCSM-Minecraft-Status/blob/main/frontend/MCSM/MCSM-Card.html)
 
-修改
+ 服务器IP 服务器端口 服务器名称
 ```html
        <!-- <li data-host="服务器IP" data-port="服务器端口">
             <div class="card">
@@ -15,7 +15,7 @@
             </div>
         </li> -->
 ```
-中的 服务器IP 服务器端口 服务器名称
+
 
 ## 后端
 ### 安装

@@ -46,7 +46,7 @@ wss.on('connection', ws => {
             }));
 
         } catch (error) {
-            ws.send(JSON.stringify({ online: false }));
+            ws.send(JSON.stringify({ 'online': false, host, port }));
         }
     });
 });
@@ -79,8 +79,7 @@ app.get('/', async (req, res) => {
         res.json({ online: true, host, port, version, players, motd, icon });
     } catch (error) {
         console.log(error);
-        res.json({ 'online': false });
-
+        res.json({ 'online': false, host, port });
     }
 });
 
