@@ -151,8 +151,11 @@ function toggleTheme() {
     updateTheme();
 }
 
+
+document.getElementById('add-server-button').addEventListener('click', addServer);
 setInterval(requestServerStatus, 30000);
 console.log(window.parent.localStorage.getItem('THEME_KEY'));
 loadServerList();
 connectWebSocket();
 toggleTheme();
+window.addServer=addServer
