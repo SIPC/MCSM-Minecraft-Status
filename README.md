@@ -3,17 +3,7 @@
 ### 安装
 1. 下载 [MCSM-Card.html](https://github.com/SIPC/MCSM-Minecraft-Status/blob/main/frontend/MCSM-Card.html)
 
-2. 修改html中 服务器IP 服务器端口 服务器名称
-```html
-<li data-host="服务器IP" data-port="服务器端口">
-       <div class="card">
-              <div class="card-main">服务器名称<span class="status">Checking...</span></div>
-              <div class="card-detail"></div>
-       </div>
-</li>
-```
-
-3. 将html文件上传至mcsm
+2. 将html文件上传至mcsm
 
 ![image](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/e21f6677-beef-4c8d-a0cc-2fa5597c9743)
 
