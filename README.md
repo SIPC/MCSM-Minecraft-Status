@@ -1,7 +1,7 @@
 # MCSM-Minecraft-Status 
 ## 前端
 ### 安装
-1. 下载 [MCSM-Card.html](https://github.com/SIPC/MCSM-Minecraft-Status/blob/main/frontend/MCSM/MCSM-Card.html)
+1. 下载 [MCSM-Card.html](https://github.com/SIPC/MCSM-Minecraft-Status/blob/main/frontend/MCSM-Card.html)
 
 2. 修改html中 服务器IP 服务器端口 服务器名称
 ```html
