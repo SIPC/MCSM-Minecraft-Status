@@ -20,5 +20,6 @@ node main.js
 ```
 
 ## 效果
-![fb69f6f1becb1f1d45d747dadbd8fe81](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/a7b2909f-2cc2-4e32-b784-920fc15e9f85)
-![6e332852db508b73765aef9efd2edebc](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/ef4ce4c2-98ae-440d-95e3-6be484bddd7e)
+
+![6c083210a0bb25525d1416b156ec0681](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/ab0b0f27-9751-44db-b2b2-ac0641d74036)
+![162b10879a7ccb3759359a69fde47b29](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/fcdf9a83-0366-450e-ae37-e1262bee3660)
