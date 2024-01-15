@@ -158,4 +158,3 @@ console.log(window.parent.localStorage.getItem('THEME_KEY'));
 loadServerList();
 connectWebSocket();
 toggleTheme();
-window.addServer=addServer
