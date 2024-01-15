@@ -20,6 +20,7 @@ node main.js
 ```
 
 ## 效果
+![16e4e670724183186fff1684171a4126](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/974b65a9-ae4d-4ef3-a94b-d5deceb68830)
 
-![6c083210a0bb25525d1416b156ec0681](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/ab0b0f27-9751-44db-b2b2-ac0641d74036)
-![162b10879a7ccb3759359a69fde47b29](https://github.com/SIPC/MCSM-Minecraft-Status/assets/92251518/fcdf9a83-0366-450e-ae37-e1262bee3660)
+
+tips: 右键服务器可删除
